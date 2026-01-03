@@ -352,6 +352,13 @@ input[name="slider"] {
     transform: scale(1.2);
 }
 
+.btn-small{
+    position: relative;
+    top: 100px;
+    width: 300px;
+    text-align: center;
+}
+
 /* Animations */
 @keyframes fadeInUp {
     to {

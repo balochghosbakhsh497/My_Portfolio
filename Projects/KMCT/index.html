@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- ======================================================
+     Kech Museum Turbat — Home Page
+     Clean, modern, culturally inspired; semantic HTML only
+     ====================================================== -->
+<html lang="en">
+  <head>
+    <!-- Meta: responsive + basic SEO -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Kech Museum Turbat, Balochistan — preserving archaeology, history, culture, and heritage of the Kech region." />
+    <title>Kech Museum Turbat — Home</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Accessibility: skip to main content -->
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <!-- Header + Navigation -->
+    <header>
+      <nav class="site-nav" aria-label="Main">
+        <div class="container nav-container">
+          <a class="brand" href="index.html">
+            <span class="accent">Kech</span> Museum Turbat
+          </a>
+          <!-- Mobile menu toggle (CSS-only) -->
+          <input class="nav-toggle" id="nav-toggle" type="checkbox" aria-label="Toggle navigation" />
+          <label class="nav-toggle-label" for="nav-toggle" aria-label="Menu" aria-controls="primary-navigation">
+            <span></span>
+          </label>
+          <ul id="primary-navigation" class="nav-links">
+            <li><a class="active" aria-current="page" href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Galleries</a></li>
+            <li><a href="visitor.html">Visitor Info</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main content -->
+    <main id="main-content">
+      <!-- Hero: title, tagline, CTA -->
+      <section class="hero" aria-label="Hero">
+        <div class="container content">
+          <div>
+            <h1>Kech Museum Turbat</h1>
+            <p>
+              A cultural home for archaeology, history, and heritage of the Kech region in Balochistan.
+              Discover artifacts, oral traditions, and craftsmanship shaped by desert and sea.
+            </p>
+            <div class="actions" style="display:flex; gap:.5rem; flex-wrap:wrap;">
+              <a class="btn" href="visitor.html">Plan Your Visit</a>
+              <a class="btn secondary" href="gallery.html">Explore Galleries</a>
+            </div>
+          </div>
+          <!-- Decorative art block (CSS-only) -->
+          <div class="art"><img src="Pic/Kech Museum.jpg" alt=""></div>
+        </div>
+      </section>
+
+      <!-- Introduction -->
+      <section aria-labelledby="intro-title">
+        <div class="container">
+          <div class="section-header">
+            <h2 id="intro-title" class="section-title">Welcome</h2>
+            <p class="section-subtitle">
+              Kech Museum preserves the material culture of Turbat and Makran—ceramics, textiles, tools, and stories that connect the region’s past to its living traditions.
+            </p>
+          </div>
+          <!-- Key highlights -->
+          <div class="grid">
+            <article class="card" aria-label="Archaeology highlights">
+              <h3>Archaeology</h3>
+              <p>Excavations and surveys from Makran reveal settlement patterns, trade, and craftsmanship across centuries.</p>
+            </article>
+            <article class="card" aria-label="History highlights">
+              <h3>History</h3>
+              <p>Documents and oral histories trace governance, migration, and everyday life from ancient to modern eras.</p>
+            </article>
+            <article class="card" aria-label="Culture highlights">
+              <h3>Culture</h3>
+              <p>Weaving, music, and language reflect resilient identities shaped by landscape and exchange.</p>
+            </article>
+            <article class="card" aria-label="Heritage highlights">
+              <h3>Heritage</h3>
+              <p>Conservation and community programs safeguard artifacts and knowledge for future generations.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container footer-inner">
+        <div>© 2025 Kech Museum Turbat, Balochistan</div>
+        <div class="footer-links" aria-label="Footer links">
+          <a href="about.html">About</a>
+          <a href="gallery.html">Galleries</a>
+          <a href="visitor.html">Visitor Info</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+  </html>
+
