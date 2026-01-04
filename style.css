@@ -359,7 +359,7 @@ input[name="slider"] {
     text-align: center;
 }
 .myself{
-    width: 400px;
+    width: 380px;
     height: 500px;
     display: flex;
     position: relative;
